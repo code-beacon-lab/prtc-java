@@ -1,4 +1,4 @@
-package ch13.exception;
+package thisIsJava.ch13_exception;
 
 public void arrayOutOfBoundsTryCatch() {
 	try {
