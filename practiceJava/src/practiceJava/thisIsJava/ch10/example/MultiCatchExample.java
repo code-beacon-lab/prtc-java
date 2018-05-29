@@ -1,6 +1,6 @@
 package practiceJava.thisIsJava.ch10.example;
 
-public class CatchOrderExample {
+public class MultiCatchExample {
 
 	public static void main(String[] args) {
 		try {
@@ -8,10 +8,9 @@ public class CatchOrderExample {
 			String data2 = args[1];
 			int value1 = Integer.parseInt(data1);
 			int value2 = Integer.parseInt(data2);
-			 
-		} catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("실행할 매개 값이 부족합니다.");
-		}
+			int result = value1 + value2;
+			System.out.println(data1 + "+" + data2 + "=" + result);
+		} catch(Array)
 
 	}
 
