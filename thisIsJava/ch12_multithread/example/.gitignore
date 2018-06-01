@@ -41,3 +41,12 @@
 /P581_BeerprintExample1.class
 /P602_SleepExample.class
 /NumberFormat.class
+/WorkObject.class
+/WaitNotifyExample.class
+/DataBox.class
+/P609_WorkObject.class
+/P609_ThreadA.class
+/P610_ThreadB.class
+/P610_WaitNotifyExample.class
+/ProducerThread.class
+/ConsummerThread.class
