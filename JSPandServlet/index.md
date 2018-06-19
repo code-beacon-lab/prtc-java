@@ -1,6 +1,6 @@
 목차
 
-9. [9.예외처리](#9-예외처리)
+9. [예외처리](#9-예외처리)
 
 
 ## 1. JSP 입문
@@ -50,7 +50,8 @@
 ## Session Cookie
 
 ## 9. 예외처리
-### 9.1 
+### 9.1 Page지시자의 errorPage 속성
+```<% page errorPage="makeyourOwnErrorPage.jsp" %>```
 
 ## 파일 업로드
 ## image
