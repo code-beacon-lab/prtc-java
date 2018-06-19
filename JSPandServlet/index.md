@@ -51,8 +51,8 @@
 
 #### 5.3.1 액션 태그의 개요
 - JSP에서 제공 하는 액션 태그
- - 페이지 흐름 제어 액션(forward/include)
- - 자바빈 사용 액션(useBean)
+	- 페이지 흐름 제어 액션(forward/include)
+ -- 자바빈 사용 액션(useBean)
  - 애플릿 사용 액션(plugin 액션)
 
 #### 5.3.2 forward 액션 태그
