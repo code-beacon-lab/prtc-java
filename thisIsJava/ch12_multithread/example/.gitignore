@@ -50,3 +50,13 @@
 /P610_WaitNotifyExample.class
 /ProducerThread.class
 /ConsummerThread.class
+/StopFlagExample.class
+/PrintThread1.class
+/P615_PrintThread1.class
+/P614_StopFlagExample.class
+/InterruptExample.class
+/PrintThread2.class
+/P616_InterruptExample.class
+/P616_PrintThread2.class
+/AutoSaveThread.class
+/DeamonExample.class

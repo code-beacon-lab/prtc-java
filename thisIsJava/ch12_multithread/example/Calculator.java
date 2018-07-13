@@ -1,6 +1,6 @@
 package thisIsJava.ch12_multithread.example;
 
-public class P592_Calculator {
+public class Calculator {
 	private int memory;
 	
 	public int getMemory() {
@@ -8,7 +8,6 @@ public class P592_Calculator {
 	}
 	
 	public synchronized void setMemory(int memory) {
-	//public void setMemory(int memory) {
 		this.memory = memory;
 		try {
 			Thread.sleep(2000);

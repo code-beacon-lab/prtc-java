@@ -13,10 +13,11 @@ public class DataBox {
 		String returnValue = data;
 		System.out.println("ConsummerThread가 읽은 데이터 : " + returnValue);
 		data = null;
+		notify();
 		return returnValue;
 	}
 	
-	public synchronized String setData(String data) {
+	public synchronized void setData(String data) {
 		if(this.data == null) {
 			try {
 				wait();
@@ -25,6 +26,6 @@ public class DataBox {
 		}
 		this.data = data;
 		System.out.println("ProduceThread가 읽은 데이터 : " + data);
-		return data;
+		notify();
 	}
 }

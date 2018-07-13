@@ -6,11 +6,11 @@ public class P607_JoinExample {
 		P607_SumThread sumThread = new P607_SumThread();
 		sumThread.start();
 		
-//		try {
-//			sumThread.join();
-//		} catch (InterruptedException e) {
-//		}
-//		
+		try {
+			sumThread.join(); // sumThread가 종료할 때까지 메인 스레드를 일시정지
+		} catch (InterruptedException e) {
+		}
+		
 		System.out.println("1~100합 : " + sumThread.getSum());
 
 	}
