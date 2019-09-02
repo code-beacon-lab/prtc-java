@@ -1,3 +1,4 @@
-/MemberDTO.class
-/ReferenceConstructor.class
-/ReferenceStaticVariable.class
+/bin/
+/.setting
+.classpath
+.project
