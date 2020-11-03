@@ -9,12 +9,13 @@
 * version
 * Structure
 * trivia
+
 ### 2. 개발 환경 구성
 
 
-## Syntax
+## Section
 
-### A. Basic
+### Section 01A. Basic
 #### Inheritance
 ### B. Intermediate
 ### C. Advanced
@@ -31,8 +32,8 @@
 
 
 ## Reference
-
 ### Book
 - 이것이 자바다
 - 자바의 신
 - 소설 같은 자바
+- Effective java, 3rd(이펙티브 자바)
